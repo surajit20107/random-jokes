@@ -1,6 +1,7 @@
 // https://v2.jokeapi.dev/joke/Any
 // https://official-joke-api.appspot.com/jokes/random
 const url = "https://v2.jokeapi.dev/joke/Any";
+const url2 = "https://official-joke-api.appspot.com/jokes/random";
 const getJokeButton = document.querySelector("#genJokeBtn");
 const setup = document.querySelector("#setup")
 const delivery = document.querySelector("#delivery")
@@ -9,7 +10,7 @@ const delivery = document.querySelector("#delivery")
 
 async function getJokes() {
   try {
-    const res = await fetch(url)
+    const res = await fetch(url2)
     const data = await res.json()
     console.log(data);
     if (data.type==="twopart") {

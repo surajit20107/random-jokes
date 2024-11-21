@@ -48,7 +48,7 @@ Check out the live demo [here](https://random-jokes-red.vercel.app/)
 
 ## 📸 Screenshot
 
-![Random Jokes Generator Screenshot](screenshot/screenshot.png)
+![Random Jokes Generator Screenshot](./screenshot/screenshot.png)
 
 ---
 
